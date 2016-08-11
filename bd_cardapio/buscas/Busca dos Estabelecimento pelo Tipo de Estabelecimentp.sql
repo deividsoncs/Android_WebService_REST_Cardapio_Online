@@ -1,0 +1,5 @@
+
+SELECT estabelecimento.*
+FROM bd_cardapio.estabelecimento, bd_cardapio.estabelecimento_tipo_estabelecimento 
+WHERE estabelecimento.id = estabelecimento_tipo_estabelecimento.id_estabelecimento and 
+	estabelecimento_tipo_estabelecimento.id_tipo_estabelecimento = 4

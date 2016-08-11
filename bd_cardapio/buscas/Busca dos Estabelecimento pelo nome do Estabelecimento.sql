@@ -1,0 +1,1 @@
+SELECT estabelecimento.* FROM bd_cardapio.estabelecimento WHERE estabelecimento.nome_fantasia LIKE "%Restaurante%"
